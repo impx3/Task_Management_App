@@ -1,11 +1,10 @@
-package com.example.task_management_app.data
+package com.example.task_management_app.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
 import com.example.task_management_app.data.TaskDatabase
-import com.example.task_management_app.repository.TaskRepository
 import com.example.task_management_app.model.Task
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

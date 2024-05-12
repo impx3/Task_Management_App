@@ -1,4 +1,4 @@
-package com.example.task_management_app.data
+package com.example.task_management_app.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -12,5 +12,5 @@ data class Task(
     val taskName: String,
     val taskDesc: String,
     val priority: Int,
-   // val deadline: Date,
+    //val deadline: Date,
 ):Parcelable

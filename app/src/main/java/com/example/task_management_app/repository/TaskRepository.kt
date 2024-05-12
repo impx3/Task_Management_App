@@ -1,6 +1,8 @@
-package com.example.task_management_app.data
+package com.example.task_management_app.repository
 
 import androidx.lifecycle.LiveData
+import com.example.task_management_app.data.TaskDao
+import com.example.task_management_app.model.Task
 
 class TaskRepository(private val taskDao: TaskDao) {
 
