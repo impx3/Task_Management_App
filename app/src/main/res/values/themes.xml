@@ -2,7 +2,9 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Task_Management_App" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
+        <item name="android:statusBarColor">@color/dark_blue</item>
     </style>
 
     <style name="Theme.Task_Management_App" parent="Base.Theme.Task_Management_App" />
