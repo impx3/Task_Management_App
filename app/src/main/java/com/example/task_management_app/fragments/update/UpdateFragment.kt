@@ -15,8 +15,9 @@ import androidx.navigation.NavArgs
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.task_management_app.R
-import com.example.task_management_app.Task
-import com.example.task_management_app.TaskViewModel
+import com.example.task_management_app.model.Task
+import com.example.task_management_app.viewmodel.TaskViewModel
+//import com.example.task_management_app.databinding.FragmentAddBinding
 import kotlinx.android.synthetic.main.fragment_update.*
 import kotlinx.android.synthetic.main.fragment_update.view.*
 
@@ -38,6 +39,7 @@ class UpdateFragment : Fragment() {
         view.updateTaskName_et.setText(args.currentTask.taskName)
         view.updateTaskDesc_et.setText(args.currentTask.taskDesc)
         view.updatePriority_et.setText(args.currentTask.priority.toString())
+        
 
         view.update_btn.setOnClickListener {
             updateItem()

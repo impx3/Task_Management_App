@@ -11,11 +11,12 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.example.task_management_app.R
-import com.example.task_management_app.Task
-import com.example.task_management_app.TaskViewModel
+import com.example.task_management_app.model.Task
+import com.example.task_management_app.viewmodel.TaskViewModel
+//import com.example.task_management_app.databinding.FragmentAddBinding
 import kotlinx.android.synthetic.main.fragment_add.*
 import kotlinx.android.synthetic.main.fragment_add.view.*
-kotlinx.android.synthetic.main.fragment_add.view.addTaskName_et
+import kotlinx.android.synthetic.main.fragment_add.view.addTaskName_et
 
 class AddFragment : Fragment() {
 

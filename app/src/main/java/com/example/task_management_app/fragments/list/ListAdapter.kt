@@ -5,12 +5,17 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.task_management_app.R
-import com.example.task_management_app.data.Task
+import com.example.task_management_app.model.Task
 import kotlinx.android.synthetic.main.custom_row.view.*
 
 class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
 
     private var taskList = emptyList<Task>()
+
+    //Date part
+    //val currentDate = Date()
+    //val dateString = DateUtils.dateToString(currentDate)
+    //val parsedDate = DateUtils.stringToDate(dateString)
 
     class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {}
 
