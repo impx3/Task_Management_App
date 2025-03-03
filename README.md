@@ -1,0 +1,3 @@
+**Task Management Mobile Application**
+
+Developed a dynamic task management mobile application using Android Studio and Kotlin as part of an academic assignment. The app incorporates several key Android development components, including SQLite database integration with the Room library, Kotlin Coroutines for asynchronous operations, RecyclerView for displaying tasks, and ViewModel architecture for data management. The app allows users to add, delete, update, and view tasks with an intuitive UI. The development process includes regular git commits to a public GitHub repository for version control. Additionally, I’ve focused on enhancing user experience with features like task filtering, sorting, and task management functionalities.
